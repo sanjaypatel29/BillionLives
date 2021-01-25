@@ -27,9 +27,11 @@
       </div>
     </div>
 
-    <v-btn icon>
-      <v-icon>mdi-home</v-icon>
-    </v-btn>
+    <router-link class="text-decoration-none" to="/">
+      <v-btn icon>
+        <v-icon>mdi-home</v-icon>
+      </v-btn>
+    </router-link>
 
     <v-btn icon>
       <v-icon>mdi-bell</v-icon>

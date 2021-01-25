@@ -21,7 +21,7 @@
           <Navbar />
         </div>
         <div class="ma-3">
-          <Task />
+          <router-view />
         </div>
       </div>
     </div>
@@ -30,15 +30,13 @@
 
 
 <script>
-import Drawer from "./Drawer";
-import Navbar from "./Navbar";
-import Task from "./Task";
+import Drawer from "../components/Drawer";
+import Navbar from "../components/Navbar";
 export default {
-  name: "HOME",
+  name: "Routes",
   components: {
     Navbar,
     Drawer,
-    Task,
   },
 };
 </script>

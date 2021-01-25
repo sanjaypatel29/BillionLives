@@ -59,7 +59,7 @@
     </div>
 
     <!-- All cards display block -->
-    <div class="feed mx-auto card">
+    <div class="cardFeed mx-auto card">
       <Card />
     </div>
   </v-card>
@@ -109,12 +109,12 @@ export default {
   font-size: 50px;
 }
 
-.feed {
-  height: 550px;
+.cardFeed {
+  height: 570px;
   overflow-y: scroll;
 }
 
-.feed::-webkit-scrollbar {
+.cardFeed::-webkit-scrollbar {
   display: none;
 }
 
