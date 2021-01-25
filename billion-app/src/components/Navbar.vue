@@ -17,7 +17,7 @@
     <v-btn icon>
       <v-img max-height="35" max-width="35" src="..\assets\leaf.png"></v-img>
     </v-btn>
-    <div id="region" class="hidden-sm-and-down">
+    <div id="region" class="hidden-sm-and-down text--secondary">
       <div>IN-Southern Region</div>
       <div>
         <div>
@@ -41,7 +41,7 @@
       <v-icon>mdi-help-circle</v-icon>
     </v-btn>
 
-    <v-btn icon>
+    <v-btn class="mr-2" icon>
       <v-avatar>
         <v-img
           max-height="40"

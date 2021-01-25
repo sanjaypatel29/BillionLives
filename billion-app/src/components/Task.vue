@@ -1,5 +1,5 @@
 <template>
-  <v-card>
+  <v-card class="ma-3">
     <div>
       <v-toolbar flat dense>
         <v-toolbar-title>

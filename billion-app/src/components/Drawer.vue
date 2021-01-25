@@ -3,7 +3,7 @@
     <!-- For large screen -->
     <v-navigation-drawer
       permanent
-      class="hidden-sm-and-down item"
+      class="hidden-md-and-down item"
       expand-on-hover
     >
       <v-app-bar-nav-icon class="mb-7 mt-3 ml-2"></v-app-bar-nav-icon>

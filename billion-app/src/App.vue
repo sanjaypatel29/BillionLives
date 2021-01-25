@@ -20,7 +20,7 @@
         <div>
           <Navbar />
         </div>
-        <div class="ma-3">
+        <div>
           <!-- Here Pages will be change according to routes -->
           <router-view />
         </div>
