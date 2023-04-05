@@ -31,6 +31,15 @@
             </v-list-item>
           </router-link>
 
+          <router-link class="text-decoration-none" to="/projects">
+            <v-list-item link>
+              <v-list-item-icon>
+                <v-icon>mdi-folder </v-icon>
+              </v-list-item-icon>
+              <v-list-item-title>Project</v-list-item-title>
+            </v-list-item>
+          </router-link>
+
           <router-link class="text-decoration-none" to="/setting">
             <v-list-item link>
               <v-list-item-icon>
@@ -39,7 +48,7 @@
               <v-list-item-title>Settings</v-list-item-title>
             </v-list-item>
           </router-link>
-          <div v-bind:style="{ height: '440px' }"></div>
+          <div v-bind:style="{ height: '420px' }"></div>
 
           <router-link class="text-decoration-none" to="/help">
             <v-list-item>
@@ -91,6 +100,15 @@
             </v-list-item>
           </router-link>
 
+          <router-link class="text-decoration-none" to="/projects">
+            <v-list-item link>
+              <v-list-item-icon>
+                <v-icon>mdi-folder </v-icon>
+              </v-list-item-icon>
+              <v-list-item-title>Project</v-list-item-title>
+            </v-list-item>
+          </router-link>
+
           <router-link class="text-decoration-none" to="/setting">
             <v-list-item link>
               <v-list-item-icon>
@@ -99,7 +117,7 @@
               <v-list-item-title>Settings</v-list-item-title>
             </v-list-item>
           </router-link>
-          <div v-bind:style="{ height: '440px' }"></div>
+          <div v-bind:style="{ height: '420px' }"></div>
 
           <router-link class="text-decoration-none" to="/help">
             <v-list-item>
